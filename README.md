@@ -23,7 +23,7 @@ EDARE is designed to help AI models identify entropy shifts during dialogue, rec
 ## 🚀 Getting Started | 快速开始
 
 ```bash
-git clone https://github.com/changrongq/edare.git
+git clone https://github.com/changrongq/EntropyDrivenAI.git
 cd edare
 pip install -r requirements.txt
 python entropy_tracker.py
