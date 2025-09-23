@@ -1,0 +1,18 @@
+.bubble {
+    background: linear-gradient(90deg, #ffe6f0 0%, #ff99cc 100%);
+    padding: 15px;
+    border-radius: 20px;
+    border: 2px solid #ff99cc;
+    font-family: "Arial", sans-serif;
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+.tail-wiggle {
+    display: inline-block;
+    animation: spin 1s infinite;
+}
+@keyframes spin {
+    0% { transform: rotate(0deg);}
+    50% { transform: rotate(10deg);}
+    100% { transform: rotate(0deg);}
+}
